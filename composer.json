@@ -1,0 +1,21 @@
+{
+    "name": "genesisc/yii2-ab-test",
+    "description": "AB-Test extention for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","ab-test"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "genesisc",
+            "email": "e@genesis.kz"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "genesisc\\abTest\\": ""
+        }
+    }
+}
